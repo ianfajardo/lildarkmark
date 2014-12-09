@@ -18,7 +18,7 @@ $("#menu-icon").on('click', function(){
 });
 
 $(window).on('resize', function(){
-  if($(window).width() > 992){
+  if($(window).width() > 767){
     $("nav ul").show();
   }
   else{
@@ -33,9 +33,11 @@ $(document).scroll(
         var currentTop = $(window).scrollTop();
         if(currentTop >= navTop){
           $("nav").addClass('nav-fixed');
+          $("body").css("margin-top", "60");
         }
         else{
           $("nav").removeClass('nav-fixed');
+          $("body").css("margin-top", "0");
         }
         
 });

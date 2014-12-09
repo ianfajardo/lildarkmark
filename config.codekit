@@ -771,6 +771,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/push_up_mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47346,
+		"inputAbbreviatedPath": "\/images\/push_up_mobile.jpg",
+		"outputAbbreviatedPath": "\/images\/push_up_mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/road-hi-res.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 171138,
+		"inputAbbreviatedPath": "\/images\/road-hi-res.jpg",
+		"outputAbbreviatedPath": "\/images\/road-hi-res.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/road.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 171138,
+		"inputAbbreviatedPath": "\/images\/road.jpg",
+		"outputAbbreviatedPath": "\/images\/road.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/social\/calendar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3604,
+		"inputAbbreviatedPath": "\/images\/social\/calendar.png",
+		"outputAbbreviatedPath": "\/images\/social\/calendar.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/social\/facebook.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -778,6 +822,17 @@
 		"initialSize": 443,
 		"inputAbbreviatedPath": "\/images\/social\/facebook.png",
 		"outputAbbreviatedPath": "\/images\/social\/facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/social\/menu-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 144,
+		"inputAbbreviatedPath": "\/images\/social\/menu-icon.png",
+		"outputAbbreviatedPath": "\/images\/social\/menu-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

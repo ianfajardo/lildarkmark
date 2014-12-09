@@ -1,3 +1,33 @@
+<!DOCTYPE HTML>
+<?php
+
+$message = $_POST['Message'];
+$email = $_POST['Email'];
+$name = htmlspecialchars($_POST['Name']);
+$subject = $name . " - ianfajardo.com";
+$headers = 'From: "' . $name . '" <' . $email . '>';
+$invalid_email = false;
+$empty_message = false;
+$message_sent = false;
+$message_error = false;
+
+if(!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/",$email) && isset($email)){
+  $invalid_email = true;
+}
+elseif(isset($message) && empty($message)){
+  $empty_message = true;
+}
+elseif(!empty($email) && !empty($message) && isset($message) && isset($email)){
+  $message = htmlspecialchars($message);
+  if(mail ("hello@ianfajardo.com", $subject, $message, $headers)){
+    $message_sent = true;
+  }
+  else{
+    $message_error = true;
+  }
+}
+
+?>
 <html lang="en-US">
   <head>
 

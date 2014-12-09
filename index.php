@@ -10,33 +10,59 @@
 
    <?php include_once('nav.php') ?>
    <div class="page">
-      <div class="page-content" style="margin: 0 auto; padding:40px 0;">
+      <div class="page-content" style="margin: 0 auto;">
+
+        <div id="shows" class="page-section">
+          <div class="overlay"></div>
+          <div class="container" style="position: relative; z-index:4">
+            <div class="row">
+              <div class="blk-12">
+                <h2 style="text-align:center; padding-bottom:35px;">UPCOMING SHOWS</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="blk-12">
+                <div class="show-block">
+                  <img src="images/social/calendar.png" alt="calendar">
+                  <span class="show-date">DEC 27, 2014 at 8PM PM // </span>
+                  <span class="show-location">PEABODY'S NIGHTCLUB</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="videos" class="page-section">
+          <div class="container">
+            <div class="row">
+              <div class="blk-2"></div>
+              <div class="blk-8">
+                <h2 style="color:#181818; text-align:center;">VIDEOS</h2>
+                <div class="embed-container">
+                  <iframe width="640" height="360" src="//www.youtube.com/embed/FYkyV6BFTCU?list=UUJ3cDX5LBj1GK9nSJbZvfxA" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="container">
           <div class="row">
             <div class="blk-12">
      
-                  <div style="margin: 0 auto; text-align: center">
-                    <div class="img-title">
-                      <div class="img-center img-responsive">
-                        <img src="images/push_up.jpg" alt="push_up">
-                        <h2>VIDEOS</h2>
-                      </div>
-                    </div>
-                    <div class="embed-container">
-                      <iframe width="640" height="360" src="//www.youtube.com/embed/FYkyV6BFTCU?list=UUJ3cDX5LBj1GK9nSJbZvfxA" frameborder="0" allowfullscreen></iframe>
-                    </div>
+              <div style="margin: 0 auto; text-align: center">
+                <div class="img-title">
+                  <div class="img-center img-responsive">
+                    
                   </div>
+                </div>
+              </div>
 
             </div>
           </div>
           <div class="row">
             <div class="blk-12">
-              <div class="img-title">
-                <div class="img-center img-responsive">
-                  <img src="images/crossed_tunnel.jpg" alt="tunnel_crossed_arms">
-                  <h2>Contact</h2>
-                </div>
-              </div>
+              <h2 class="text-center">Contact</h2>
               <form class="text-center" name="Contact" method="post" action="#contact">
                 <div class="top-form">
                 <div id="email-form" >
