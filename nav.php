@@ -1,4 +1,5 @@
 <nav id="nav">
+  <img id="menu-icon" src="images/social/menu-icon.png" alt="menu icon">
   <ul>
     <li><a href="#">ABOUT</a></li>
     <li><a href="#">SHOWS</a></li>

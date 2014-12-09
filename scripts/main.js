@@ -1,4 +1,4 @@
-
+/*
 $('#abbv').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
   $('#abbv').hide();
   $('#full').show();
@@ -11,6 +11,19 @@ $('#full').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend 
 $('#full span').bind("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){
   $('#full span').css("color", "#960000");
   $('#full').css("color", "#960000");
+});
+*/
+$("#menu-icon").on('click', function(){
+  $("nav ul").toggle();
+});
+
+$(window).on('resize', function(){
+  if($(window).width() > 992){
+    $("nav ul").show();
+  }
+  else{
+    $("nav ul").hide();
+  }
 });
 
 var navTop = $("nav").offset().top;
